@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  margin: auto;
+  background-color: brown;
+  text-align: center;
+}
+.container h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.5rem;
+}
+.container img {
+  width: 500px;
+  height: auto;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+}
